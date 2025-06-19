@@ -26,9 +26,6 @@ const allProjects = [
   <WeatherCard key="WeatherCard" />
 ];
 
-
-
-
 export default function Project() {
 
   const cardsPerPage = 3;
@@ -51,7 +48,8 @@ export default function Project() {
 
   const visibleCards = allProjects.slice(startIndex, endIndex);
   return (
-    <div >
+    <div className="text-center mt-10">
+      <h2 className="text-4xl font-bold mb-8 text-primary">Projects</h2>
       <AnimatePresence mode="wait">
         <motion.div
           key={currentPage}

@@ -1,14 +1,22 @@
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Navbar() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    return localStorage.getItem("theme") === "dark";
+  });
+
+  useEffect(() => {
+    const theme = darkMode ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+  }, [darkMode]);
 
   function toggleDarkMode() {
-    setDarkMode(!darkMode);
-    // Add logic to toggle class on body or html for dark mode
-    document.documentElement.classList.toggle("dark", !darkMode);
-  }
+  const newMode = !darkMode;
+  setDarkMode(newMode);
+  document.documentElement.setAttribute("data-theme", newMode ? "dark" : "light");
+}
   return (
     <div className="navbar bg-base-100 shadow-md fixed top-0 left-0 right-0 z-50">
       <div className="navbar-start">
@@ -35,6 +43,7 @@ function Navbar() {
           >
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#project">Skills</a></li>
             <li><a href="#project">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -48,6 +57,7 @@ function Navbar() {
         <ul className="menu menu-horizontal px-1 text-sm font-medium">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#project">Skills</a></li>
           <li><a href="#project">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
