@@ -16,7 +16,7 @@ export default function Footer() {
         {/* Right Side - Social Icons */}
         <div className="flex gap-6 text-2xl">
           <a
-            href="https://github.com/sudarson-dev"
+            href="https://github.com/sudharson3131"
             target="_blank"
             rel="noreferrer"
             className="hover:text-white transition-colors"
@@ -25,7 +25,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/in/sudarson"
+            href="https://www.linkedin.com/in/sudharson31/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-white transition-colors"
@@ -34,7 +34,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="mailto:sudarson@example.com"
+            href="mailto:sudharsonshanmugaraj@gmail.com"
             className="hover:text-white transition-colors"
           >
             <FaEnvelope />
