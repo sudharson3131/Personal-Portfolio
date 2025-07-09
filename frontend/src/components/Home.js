@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import HeroImage from '../assets/Profile.png';
+// import HeroImage from '../assets/Profile.png';
+import HeroImage from '../assets/sudan.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

@@ -9,7 +9,7 @@ export default function FruitList() {
       <div className="card-body">
         <h2 className="card-title">
           Fruit List App
-          <div className="badge badge-secondary">New</div>
+         
         </h2>
         <p>
           A simple MERN stack app where users can add, edit, and delete fruits from a list.

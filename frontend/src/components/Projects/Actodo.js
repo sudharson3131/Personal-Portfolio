@@ -9,7 +9,6 @@ export default function ActodoCard() {
       <div className="card-body">
         <h2 className="card-title">
           ACTODO
-          <div className="badge badge-secondary">New</div>
         </h2>
         <p>
           A sleek to-do list web application built with React and styled using Tailwind CSS. 

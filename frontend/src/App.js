@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Project from "./components/Project";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
 
         <section id="project" className="flex flex-col justify-start">
           <Project />
+        </section>
+        <section id="contact" >
+          <Contact />
         </section>
       </div>
       <Footer />
