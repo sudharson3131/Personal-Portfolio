@@ -9,7 +9,7 @@ Welcome to my personal portfolio! I'm a Full Stack Developer specializing in the
 
 ## 🚀 Live Demo
 
-👉 [Visit Portfolio](https://yourusername.github.io/your-repo-name/)  
+👉 https://vercel.com/sudans-projects-cd547372/personal-portfolio  
 *(Replace with your actual GitHub Pages / Vercel / Netlify URL)*
 
 ---
