@@ -9,8 +9,8 @@ Welcome to my personal portfolio! I'm a Full Stack Developer specializing in the
 
 ## 🚀 Live Demo
 
-👉 [Visit Portfolio](https://yourusername.github.io/your-repo-name/)  
-*(Replace with your actual GitHub Pages / Vercel / Netlify URL)*
+👉 https://personal-portfolio-navy-gamma.vercel.app/
+
 
 ---
 
